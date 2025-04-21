@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './Components/Layout';
 import PrivateRoute from './components/PrivateRoute';
-import StudentList from './components/StudentList';
+import StudentList from './Components/StudentList';
 import Login from './components/Login';
 import Signup from './components/SignUp';  // Import Signup component
 function App() {
